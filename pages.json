@@ -1,0 +1,171 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+            "path" : "pages/category/category",
+           "style": {
+           	"navigationBarTitleText": "分类",
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#fff"
+           }
+        }
+        ,{
+            "path" : "pages/reserve-survey/reserve-survey",
+           "style": {
+           	"navigationBarTitleText": "预约量体"
+           }
+        }
+        ,{
+            "path" : "pages/compose/compose",
+            "style": {
+            	"navigationBarTitleText": "搭配"
+            }
+        }
+        ,{
+            "path" : "pages/product-list/product-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/product-detail/product-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config/config",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config-account/config-account",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/compose-detail/compose-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-list/order-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-detail/order-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-custom-detail/order-custom-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/seckill/seckill",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/product-art/product-art",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/product-material/product-material",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config-account-nickname/config-account-nickname",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config-account-password/config-account-password",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config-address/config-address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/config-address-create/config-address-create",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/wallet/wallet",
+            "style" : {}
+        }
+
+        ,{
+            "path" : "pages/wallet-pay/wallet-pay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-confirm/order-confirm",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-pay/order-pay",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order-appraise/order-appraise",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "高级定制",
+		"navigationBarBackgroundColor": "#222",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/reserve-survey/reserve-survey",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "预约量体"
+			},
+			{
+				"pagePath": "pages/compose/compose",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "搭配"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}
